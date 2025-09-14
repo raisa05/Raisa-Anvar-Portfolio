@@ -1,0 +1,24 @@
+.cyberpunk {
+  background: #181828;
+  color: #fuchsia;
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+  padding: 2rem;
+}
+header {
+  border-bottom: 2px solid #00ffe7;
+  margin-bottom: 2rem;
+}
+h1 {
+  text-shadow: 0 0 8px #00ffe7, 0 0 16px #fuchsia;
+}
+section {
+  margin-bottom: 2rem;
+  border-left: 4px solid #fuchsia;
+  padding-left: 1rem;
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
